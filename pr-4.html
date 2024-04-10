@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        var a = parseInt(prompt("Enter your first number :")) 
+        var b = parseInt(prompt("Enter your second number :")) 
+        var c = parseInt(prompt("Enter your third number :")) 
+        var d = parseInt(prompt("Enter your fourth number :")) 
+
+        function num(a,b,c,d) {
+            
+            if(a > b && a > c && a > d){
+                console.log("A number is greater");
+            }else if(b > c && b > d){
+                console.log("B number is greater");
+            }else if(c > d){
+                console.log("C number is greater");
+            }else{
+                console.log("d number is greater");
+            }
+        }
+
+        console.log(num(a,b,c,d));
+    </script>
+
+</body>
+
+</html>
